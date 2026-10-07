@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.79.0" />
+    <title>Carousel Template · Bootstrap v5.0</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/carousel/"
+    />
+    <!-- ************************************************ bootstrap.min.cssの読み込み -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- ************************************************ carousel.cssの読み込み -->
+    <link href="carousel.css" rel="stylesheet" />
+    <!-- ************************************************ bootstrap.bundle.min.jsの読み込み -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <!-- カールセル開始 -->
+      <!-- carousel クラス と slide クラスを適用します -->
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/top_1.jpg" alt="サンプル画像1" />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Sign up today</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- カールセル終了 -->
+    </main>
+    <!-- ************************************************ カルーセル終了 -->
+    <div class="container">
+      <!-- buttonテスト -->
+      <button type="button" class="btn btn-primary">ここを押す</button>
+      <button type="button" class="btn btn-secondary">ここを押す</button>
+      <button type="button" class="btn btn-success shadow">ここを押す</button>
+      <button type="button" class="btn btn-danger">ここを押す</button>
+      <button type="button" class="btn btn-warning shadow">ここを押す</button>
+      <button type="button" class="btn btn-info">ここを押す</button>
+      <button type="button" class="btn btn-light">ここを押す</button>
+      <button type="button" class="btn btn-dark">ここを押す</button>
+
+      <button type="button" class="btn btn-link">ここを押す</button>
+    </div>
+  </body>
+</html>
